@@ -6,6 +6,7 @@ import { ErrorBoundary } from "./components/ErrorBoundary";
 import Index from "./pages/Index";
 import Admin from "./pages/Admin";
 import Cabinet from "./pages/Cabinet";
+import MeetMayor from "./pages/MeetMayor";
 
 const App = () => (
   <ErrorBoundary>
@@ -17,6 +18,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/admin-dtima/*" element={<Admin />} />
           <Route path="/government/cabinet" element={<Cabinet />} />
+          <Route path="/government/meet-mayor" element={<MeetMayor />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

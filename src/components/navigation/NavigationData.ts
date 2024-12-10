@@ -2,7 +2,6 @@ export const getNavigationItems = (t: (key: string) => string) => [
   {
     trigger: t("nav.government"),
     items: [
-      { href: "/government/mayors-office", label: t("nav.mayorsOffice") },
       { href: "/government/meet-mayor", label: t("nav.meetMayor") },
       { href: "/government/cabinet", label: t("nav.cabinet") },
       { href: "/government/partner", label: t("nav.partner") },
@@ -21,7 +20,6 @@ export const getNavigationItems = (t: (key: string) => string) => [
   {
     trigger: t("nav.visitors"),
     items: [
-      { href: "/visitors/education", label: t("nav.education") },
       { href: "/visitors/getting-around", label: t("nav.gettingAround") },
       { href: "/visitors/history", label: t("nav.history") },
       { href: "/visitors/movements", label: t("nav.movements") },
@@ -37,7 +35,6 @@ export const getNavigationItems = (t: (key: string) => string) => [
       { href: "/business/grants", label: t("nav.grants") },
       { href: "/business/zoning", label: t("nav.zoning") },
       { href: "/business/bids", label: t("nav.bids") },
-      { href: "/business/permits", label: t("nav.onlinePermits") },
       { href: "/business/start", label: t("nav.startBusiness") },
     ],
   },

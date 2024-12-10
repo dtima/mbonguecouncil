@@ -6,13 +6,13 @@ export const Logo = () => {
       aria-label="Home"
     >
       <img
-        src="/lovable-uploads/4b006aa1-0a89-4e68-bb1e-f3a25902cb23.png"
-        alt="DTIMA Logo"
+        src="/lovable-uploads/695e7c5c-21ab-43b6-81eb-390c5abdaf9d.png"
+        alt="Mbonge Council Logo"
         className="h-12 w-12"
         loading="eager"
       />
       <span className="text-xl font-bold text-gray-900">
-        Garoua III
+        Mbonge Council
       </span>
     </a>
   );

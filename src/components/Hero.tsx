@@ -8,11 +8,6 @@ export function Hero() {
   return (
     <div className="relative min-h-[80vh] md:min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img
-          src="/lovable-uploads/cc71449f-908f-4f00-a2c5-0401461e5801.png"
-          alt="Mbonge Council"
-          className="w-full h-full object-cover"
-        />
         <div className="absolute inset-0 bg-black/50 md:bg-black/40" />
       </div>
 

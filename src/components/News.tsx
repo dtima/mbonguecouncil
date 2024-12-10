@@ -9,10 +9,10 @@ export function News() {
   const newsItems = [
     {
       id: 1,
-      title: "Cultural Festival Success",
-      description: "Annual cultural festival brings together diverse communities",
-      date: "2024-02-15",
-      image: "/lovable-uploads/cabc010a-8d06-44b3-81fe-d65c1ec580e9.png"
+      title: "DTIMA Launch in Yaounde",
+      description: "Mbonge Council joins 14 other participating councils to start its digital transformation.",
+      date: "2024-02-28",
+      image: "/lovable-uploads/8abd09c4-579f-414b-86ea-c30ba8354f63.png"
     },
     {
       id: 2,
@@ -34,9 +34,9 @@ export function News() {
     <section className="py-8 md:py-16 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-6 md:mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold">{t("news.title")}</h2>
+          <h2 className="text-2xl md:text-3xl font-bold">Latest News</h2>
           <Button variant="outline" className="gap-2 text-sm md:text-base">
-            {t("news.viewAll")} <ArrowRight className="h-4 w-4" />
+            Visit the Newsroom <ArrowRight className="h-4 w-4" />
           </Button>
         </div>
         

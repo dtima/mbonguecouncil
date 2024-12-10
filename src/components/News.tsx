@@ -23,10 +23,10 @@ export function News() {
     },
     {
       id: 3,
-      title: "Green Initiative Launch",
-      description: "City launches ambitious green space development project",
+      title: "Boosting Local Revenue: Mbonge, Kumba II Councils Acquire New Trucks",
+      description: "The 40 ton trucks will be used to clear waste as well as to generate revenue through rents for the different municipalities.",
       date: "2024-02-13",
-      image: "/lovable-uploads/cabc010a-8d06-44b3-81fe-d65c1ec580e9.png"
+      image: "/lovable-uploads/7ac15d57-65eb-4a0c-bccf-b86ae5953c11.png"
     }
   ];
 

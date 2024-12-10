@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
-import { Shield, Phone, AlertTriangle, FirstAid } from "lucide-react";
+import { Shield, Phone, AlertTriangle, Stethoscope } from "lucide-react";
 
 export default function PublicSafety() {
   return (
@@ -35,7 +35,7 @@ export default function PublicSafety() {
               <p className="text-gray-600">Resources and guidelines for emergency situations</p>
             </div>
             <div className="p-6 border rounded-lg">
-              <FirstAid className="w-12 h-12 text-cameroon-green mb-4" />
+              <Stethoscope className="w-12 h-12 text-cameroon-green mb-4" />
               <h3 className="text-xl font-semibold mb-2">Medical Services</h3>
               <p className="text-gray-600">Access to healthcare facilities and emergency medical care</p>
             </div>

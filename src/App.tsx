@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Admin from "./pages/Admin";
 import Cabinet from "./pages/Cabinet";
 import MeetMayor from "./pages/MeetMayor";
+import NotFound from "./pages/404";
 import ArtsCulture from "./pages/residents/ArtsCulture";
 import PublicSafety from "./pages/residents/PublicSafety";
 import ParksRecreation from "./pages/residents/ParksRecreation";
@@ -63,6 +64,9 @@ const App = () => (
             <Route path="/i-want-to/find-business" element={<FindBusiness />} />
             <Route path="/i-want-to/business-license" element={<BusinessLicense />} />
             <Route path="/i-want-to/events-permit" element={<EventsPermit />} />
+
+            {/* 404 Route */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>

@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /government/*
+Allow: /residents/*
+Allow: /visitors/*
+Allow: /business/*
+Allow: /i-want-to/*
+
+Disallow: /admin-dtima/*
+Disallow: /private/*
+Disallow: /api/*
+
+Sitemap: https://mbongecouncil.cm/sitemap.xml

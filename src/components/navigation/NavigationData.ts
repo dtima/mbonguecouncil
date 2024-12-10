@@ -4,17 +4,15 @@ export const getNavigationItems = (t: (key: string) => string) => [
     items: [
       { href: "/government/meet-mayor", label: t("nav.meetMayor") },
       { href: "/government/cabinet", label: t("nav.cabinet") },
-      { href: "/government/partner", label: t("nav.partner") },
     ],
   },
   {
     trigger: t("nav.residents"),
     items: [
       { href: "/residents/arts-culture", label: t("nav.artsCulture") },
-      { href: "/residents/education", label: t("nav.education") },
+      { href: "/residents/public-safety", label: t("nav.safety") },
+      { href: "/residents/parks-recreation", label: t("nav.parks") },
       { href: "/residents/directions", label: t("nav.directions") },
-      { href: "/residents/safety", label: t("nav.safety") },
-      { href: "/residents/parks", label: t("nav.parks") },
     ],
   },
   {
@@ -22,8 +20,6 @@ export const getNavigationItems = (t: (key: string) => string) => [
     items: [
       { href: "/visitors/getting-around", label: t("nav.gettingAround") },
       { href: "/visitors/history", label: t("nav.history") },
-      { href: "/visitors/movements", label: t("nav.movements") },
-      { href: "/visitors/parks", label: t("nav.parks") },
       { href: "/visitors/things-to-do", label: t("nav.thingsToDo") },
     ],
   },
@@ -45,9 +41,6 @@ export const getNavigationItems = (t: (key: string) => string) => [
       { href: "/i-want-to/find-business", label: t("nav.findBusiness") },
       { href: "/i-want-to/business-license", label: t("nav.businessLicense") },
       { href: "/i-want-to/events-permit", label: t("nav.eventsPermit") },
-      { href: "/i-want-to/apply-job", label: t("nav.applyJob") },
-      { href: "/i-want-to/forms", label: t("nav.forms") },
-      { href: "/i-want-to/faqs", label: t("nav.faqs") },
     ],
   },
 ];

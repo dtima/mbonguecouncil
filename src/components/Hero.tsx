@@ -8,7 +8,13 @@ export function Hero() {
   return (
     <div className="relative min-h-[80vh] md:min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black/50 md:bg-black/40" />
+        <img 
+          src="/lovable-uploads/4be57948-b4b2-48cd-8f75-8d20c6518542.png" 
+          alt="Rural Women of Mbonge Council" 
+          className="w-full h-full object-cover"
+          loading="eager"
+        />
+        <div className="absolute inset-0 bg-black/60" />
       </div>
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 animate-fade-in max-w-4xl mx-auto">

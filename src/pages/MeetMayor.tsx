@@ -33,12 +33,18 @@ const MeetMayor = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
-                  <img
-                    src="/lovable-uploads/43369764-2dc3-4409-957a-f7466442ba0b.png"
-                    alt="Mayor of Mbonge"
-                    className="w-full h-full object-cover"
-                  />
+                <div className="space-y-4">
+                  <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
+                    <img
+                      src="/lovable-uploads/457d2081-f28b-4b1c-a0aa-db61d1abfe7f.png"
+                      alt="Chief Daniel Matta Mokambe, Lord Mayor of Mbonge"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h2 className="text-xl font-bold text-gray-900">Chief Daniel Matta Mokambe</h2>
+                    <p className="text-lg text-gray-600">Lord Mayor</p>
+                  </div>
                 </div>
               </div>
             </div>

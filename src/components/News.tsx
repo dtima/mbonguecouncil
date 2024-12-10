@@ -16,10 +16,10 @@ export function News() {
     },
     {
       id: 2,
-      title: "New Community Center",
-      description: "Mayor inaugurates state-of-the-art community center",
+      title: "Mbonge Council Leads in PIP Execution",
+      description: "Mbonge Council in Meme Division of the South West Region, has emerged first in the execution of Public Investment Projects, PIP. The statistics were made public during the Meme third quarter Divisional Participatory Follow-up Committee meeting.",
       date: "2024-02-14",
-      image: "/lovable-uploads/cc71449f-908f-4f00-a2c5-0401461e5801.png"
+      image: "/lovable-uploads/639c2931-b6cf-499e-9da9-619614daebde.png"
     },
     {
       id: 3,

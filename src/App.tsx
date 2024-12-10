@@ -7,6 +7,13 @@ import Index from "./pages/Index";
 import Admin from "./pages/Admin";
 import Cabinet from "./pages/Cabinet";
 import MeetMayor from "./pages/MeetMayor";
+import ArtsCulture from "./pages/residents/ArtsCulture";
+import PublicSafety from "./pages/residents/PublicSafety";
+import ParksRecreation from "./pages/residents/ParksRecreation";
+import Directions from "./pages/residents/Directions";
+import GettingAround from "./pages/visitors/GettingAround";
+import History from "./pages/visitors/History";
+import ThingsToDo from "./pages/visitors/ThingsToDo";
 
 const App = () => (
   <ErrorBoundary>
@@ -19,6 +26,17 @@ const App = () => (
           <Route path="/admin-dtima/*" element={<Admin />} />
           <Route path="/government/cabinet" element={<Cabinet />} />
           <Route path="/government/meet-mayor" element={<MeetMayor />} />
+          
+          {/* Residents Routes */}
+          <Route path="/residents/arts-culture" element={<ArtsCulture />} />
+          <Route path="/residents/public-safety" element={<PublicSafety />} />
+          <Route path="/residents/parks-recreation" element={<ParksRecreation />} />
+          <Route path="/residents/directions" element={<Directions />} />
+          
+          {/* Visitors Routes */}
+          <Route path="/visitors/getting-around" element={<GettingAround />} />
+          <Route path="/visitors/history" element={<History />} />
+          <Route path="/visitors/things-to-do" element={<ThingsToDo />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

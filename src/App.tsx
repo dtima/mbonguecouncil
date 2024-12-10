@@ -14,6 +14,8 @@ import Directions from "./pages/residents/Directions";
 import GettingAround from "./pages/visitors/GettingAround";
 import History from "./pages/visitors/History";
 import ThingsToDo from "./pages/visitors/ThingsToDo";
+import Licenses from "./pages/business/Licenses";
+import Suppliers from "./pages/business/Suppliers";
 
 const App = () => (
   <ErrorBoundary>
@@ -37,6 +39,10 @@ const App = () => (
           <Route path="/visitors/getting-around" element={<GettingAround />} />
           <Route path="/visitors/history" element={<History />} />
           <Route path="/visitors/things-to-do" element={<ThingsToDo />} />
+
+          {/* Business Routes */}
+          <Route path="/business/licenses" element={<Licenses />} />
+          <Route path="/business/suppliers" element={<Suppliers />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

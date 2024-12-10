@@ -13,18 +13,25 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg md:text-xl font-bold">{t("footer.contact")}</h3>
             <div className="space-y-2">
-              <p className="font-bold text-sm md:text-base">Garoua III City Hall</p>
-              <div className="flex items-center gap-2 text-sm md:text-base">
-                <MapPin className="h-4 w-4" />
-                <p>55 Trinity Ave SW</p>
+              <p className="font-bold text-sm md:text-base">Mbonge Council</p>
+              <div className="flex items-start gap-2 text-sm md:text-base">
+                <MapPin className="h-4 w-4 mt-1" />
+                <p>
+                  P. O Box 03 Mbonge Marumba<br />
+                  South West Region<br />
+                  Meme Division
+                </p>
               </div>
               <div className="flex items-center gap-2 text-sm md:text-base">
                 <Phone className="h-4 w-4" />
-                <p>+237 123 456 789</p>
+                <p>
+                  (+237) 675957333<br />
+                  (+237) 675730808
+                </p>
               </div>
               <div className="flex items-center gap-2 text-sm md:text-base">
                 <Mail className="h-4 w-4" />
-                <p>contact@garoua3.cm</p>
+                <p>contact@mbongecouncil.cm</p>
               </div>
               <p className="text-sm md:text-base">{t("footer.hours")}</p>
             </div>
@@ -34,13 +41,12 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg md:text-xl font-bold">{t("footer.quickLinks")}</h3>
             <ul className="space-y-2 text-sm md:text-base">
-              <li><a href="#government" className="hover:underline">{t("nav.government")}</a></li>
-              <li><a href="#residents" className="hover:underline">{t("nav.residents")}</a></li>
-              <li><a href="#visitors" className="hover:underline">{t("nav.visitors")}</a></li>
-              <li><a href="#business" className="hover:underline">{t("nav.business")}</a></li>
-              <li><a href="#taskforce" className="hover:underline">{t("footer.taskForce")}</a></li>
-              <li><a href="#iwantto" className="hover:underline">{t("nav.iwantto")}</a></li>
-              <li><a href="/reports" className="hover:underline">{t("footer.reports")}</a></li>
+              <li><a href="/government/meet-mayor" className="hover:underline">{t("nav.meetMayor")}</a></li>
+              <li><a href="/government/cabinet" className="hover:underline">{t("nav.cabinet")}</a></li>
+              <li><a href="/residents/directions" className="hover:underline">{t("nav.directions")}</a></li>
+              <li><a href="/visitors/getting-around" className="hover:underline">{t("nav.gettingAround")}</a></li>
+              <li><a href="/residents/public-safety" className="hover:underline">{t("nav.safety")}</a></li>
+              <li><a href="/residents/parks-recreation" className="hover:underline">{t("nav.parks")}</a></li>
             </ul>
           </div>
 

@@ -16,6 +16,10 @@ import History from "./pages/visitors/History";
 import ThingsToDo from "./pages/visitors/ThingsToDo";
 import Licenses from "./pages/business/Licenses";
 import Suppliers from "./pages/business/Suppliers";
+import Grants from "./pages/business/Grants";
+import Zoning from "./pages/business/Zoning";
+import Bids from "./pages/business/Bids";
+import StartBusiness from "./pages/business/StartBusiness";
 
 const App = () => (
   <ErrorBoundary>
@@ -43,6 +47,10 @@ const App = () => (
           {/* Business Routes */}
           <Route path="/business/licenses" element={<Licenses />} />
           <Route path="/business/suppliers" element={<Suppliers />} />
+          <Route path="/business/grants" element={<Grants />} />
+          <Route path="/business/zoning" element={<Zoning />} />
+          <Route path="/business/bids" element={<Bids />} />
+          <Route path="/business/start" element={<StartBusiness />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

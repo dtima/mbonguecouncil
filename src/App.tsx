@@ -20,6 +20,10 @@ import Grants from "./pages/business/Grants";
 import Zoning from "./pages/business/Zoning";
 import Bids from "./pages/business/Bids";
 import StartBusiness from "./pages/business/StartBusiness";
+import Ceremonial from "./pages/iwantto/Ceremonial";
+import FindBusiness from "./pages/iwantto/FindBusiness";
+import BusinessLicense from "./pages/iwantto/BusinessLicense";
+import EventsPermit from "./pages/iwantto/EventsPermit";
 
 const App = () => (
   <ErrorBoundary>
@@ -51,6 +55,12 @@ const App = () => (
           <Route path="/business/zoning" element={<Zoning />} />
           <Route path="/business/bids" element={<Bids />} />
           <Route path="/business/start" element={<StartBusiness />} />
+
+          {/* I Want To Routes */}
+          <Route path="/i-want-to/ceremonial" element={<Ceremonial />} />
+          <Route path="/i-want-to/find-business" element={<FindBusiness />} />
+          <Route path="/i-want-to/business-license" element={<BusinessLicense />} />
+          <Route path="/i-want-to/events-permit" element={<EventsPermit />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

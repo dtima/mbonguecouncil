@@ -8,35 +8,19 @@ export function Events() {
   const events = [
     {
       id: 1,
-      title: "L5P Holidaze",
-      date: "2024-11-16",
-      time: "12:00 PM - Feb, 03 10:00 PM",
-      month: "NOV",
-      day: "16"
+      title: "Mbonge Council Budgetary Session",
+      date: "2024-12-11",
+      time: "09:00 AM - 05:00 PM",
+      month: "DEC",
+      day: "11"
     },
     {
       id: 2,
-      title: "Holiday Vendors Market",
-      date: "2024-12-06",
-      time: "01:00 PM - Dec, 08 11:00 PM",
-      month: "DEC",
-      day: "06"
-    },
-    {
-      id: 3,
-      title: "Winterfest 2024 - Tour of Lights, Jingle Jog & Parade",
-      date: "2024-12-06",
-      time: "05:30 PM - Dec, 07 05:00 PM",
-      month: "DEC",
-      day: "06"
-    },
-    {
-      id: 4,
-      title: "Frankie Beverly and Mays Birthday Concert Tribute",
-      date: "2024-12-06",
-      time: "06:00 PM - Dec, 07",
-      month: "DEC",
-      day: "06"
+      title: "Mbonge Cultural Festival",
+      date: "2025-02-15",
+      time: "10:00 AM - Feb, 17 06:00 PM",
+      month: "FEB",
+      day: "15"
     }
   ];
 

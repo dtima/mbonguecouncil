@@ -8,15 +8,15 @@ export interface CabinetMember {
 export const cabinetMembers: CabinetMember[] = [
   {
     id: 1,
-    name: "Barrister Micheal Okole Sakwe",
-    title: "4th Deputy Mayor",
-    imageUrl: "/lovable-uploads/53e075f1-7087-49c7-87a5-26b58d96f068.png"
+    name: "Mr Esoe Kingsley",
+    title: "1st Deputy Mayor",
+    imageUrl: "/lovable-uploads/d69bbce9-a084-414a-9ca5-2b38409c4cca.png"
   },
   {
     id: 2,
-    name: "Mr. Njume Wilson",
-    title: "Secretary General",
-    imageUrl: "/lovable-uploads/97c0cf7f-19b8-42e8-b591-473baa1542d5.png"
+    name: "Mrs Hannah Wulu Njimba",
+    title: "2nd Deputy Mayor",
+    imageUrl: "/lovable-uploads/d4feef18-5494-4d2e-88c6-693edc1c9c1c.png"
   },
   {
     id: 3,
@@ -26,15 +26,15 @@ export const cabinetMembers: CabinetMember[] = [
   },
   {
     id: 4,
-    name: "Mrs Hannah Wulu Njimba",
-    title: "2nd Deputy Mayor",
-    imageUrl: "/lovable-uploads/d4feef18-5494-4d2e-88c6-693edc1c9c1c.png"
+    name: "Barrister Micheal Okole Sakwe",
+    title: "4th Deputy Mayor",
+    imageUrl: "/lovable-uploads/53e075f1-7087-49c7-87a5-26b58d96f068.png"
   },
   {
     id: 5,
-    name: "Mr Esoe Kingsley",
-    title: "1st Deputy Mayor",
-    imageUrl: "/lovable-uploads/d69bbce9-a084-414a-9ca5-2b38409c4cca.png"
+    name: "Mr. Njume Wilson",
+    title: "Secretary General",
+    imageUrl: "/lovable-uploads/97c0cf7f-19b8-42e8-b591-473baa1542d5.png"
   },
   {
     id: 6,

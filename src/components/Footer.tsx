@@ -1,3 +1,4 @@
+
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Facebook, Twitter, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react";
 import { Separator } from "./ui/separator";
@@ -25,7 +26,7 @@ export const Footer = () => {
               <div className="flex items-center gap-2 text-sm md:text-base">
                 <Phone className="h-4 w-4" />
                 <p>
-                  (+237) 675957333<br />
+                  (+237) 678121219<br />
                   (+237) 675730808
                 </p>
               </div>
